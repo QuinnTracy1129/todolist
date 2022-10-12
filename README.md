@@ -20,11 +20,11 @@ Step by step installion for local computer
 
 1. go to repository folder
 
-2. open .env
+2. open <b><i>.env</i></b> file
 
 3. uncomment the first <b><i>ALTAS_URI</i></b> and comment the second <b><i>ALTAS_URI</i></b> (make sure you have mongodb compass installed on your computer)
 
-# Code explanation
+# Code locations
 
 initial files are all backend, client side is located at client folder
 
