@@ -6,7 +6,7 @@ Step by step installion for local computer
 
 2. go to repository folder
 
-3. run <b>npm install</b>
+3. run <i>npm install</i> for backend libraries
 
 4. run npm install for backend libraries and run npm run dev
 
