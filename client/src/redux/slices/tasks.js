@@ -151,8 +151,13 @@ export const taskSlice = createSlice({
         state.isLoading = false;
         const index = state.tasks.findIndex(e => e._id === action.payload);
         state.tasks.splice(index, 1);
-        if (state.tasks.length < 1) {
-          state.page--;
+        if (state.totalPages > 1) {
+          if (state.page === state.totalPages) {
+            // if last page and totalPages are greater than 1, safe to go back another page
+            if (state.tasks.length < 1) {
+              state.page--;
+            }
+          }
         }
       })
       .addCase(DESTROY.rejected, (state, action) => {

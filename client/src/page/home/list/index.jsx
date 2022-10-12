@@ -2,9 +2,8 @@ import React, { useEffect } from "react";
 import { MDBCardBody, MDBListGroup, MDBListGroupItem } from "mdb-react-ui-kit";
 import { useDispatch, useSelector } from "react-redux";
 import { BROWSE } from "../../../redux/slices/tasks";
-
 import Loader from "./loader";
-import Filler from "./filler";
+import Item from "./card";
 
 export default function List() {
   const { tasks, page, maxPage, isLoading } = useSelector(state => state.tasks),
@@ -15,12 +14,12 @@ export default function List() {
   }, [page]);
 
   return (
-    <MDBCardBody>
+    <MDBCardBody style={{ minHeight: 277.5 }}>
       <MDBListGroup>
         {isLoading ? (
           <Loader />
         ) : tasks.length > 0 ? (
-          <Filler />
+          tasks.map(task => <Item key={`task-${task._id}`} task={task} />)
         ) : (
           <MDBListGroupItem className="text-center">
             <i>Tasks are empty</i>
