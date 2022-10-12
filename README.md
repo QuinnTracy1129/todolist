@@ -1,6 +1,4 @@
-# Basic todo list using (MERN with REDUX)
-
-Step by step installion for local computer
+# Step by step installion for local computer
 
 1. clone repository
 
