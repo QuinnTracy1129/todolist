@@ -4,9 +4,13 @@ Step by step installion for local computer
 
 1. clone repository
 
-2. run npm install for backend libraries and run npm run dev
+2. go to repository folder
 
-3. go to client folder and run npm install --legacy-peer-deps for frontend libraries and run npm run dev
+3. run <b>npm install</b>
+
+4. run npm install for backend libraries and run npm run dev
+
+5. go to client folder and run npm install --legacy-peer-deps for frontend libraries and run npm run dev
 
 # Code explanation
 
