@@ -14,8 +14,8 @@ mongoose.connect(process.env.ATLAS_URI, {
 });
 
 const corsConfig = {
-  origin: "https://todo-list-mernstack.herokuapp.com/", // Do not use wildcard`
-  // origin: "https://initial-app-1.herokuapp.com/", // Do not use wildcard`
+  origin: "http://localhost:3000", // Do not use wildcard`
+  // origin: "https://todo-list-mernstack.herokuapp.com/", // Do not use wildcard`
   methods: ["GET", "POST", "PUT", "DELETE"], // List only` available methods
   credentials: true, // Must be set to true
   allowedHeaders: [
