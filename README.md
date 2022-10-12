@@ -31,3 +31,7 @@ initial files are all backend, client side is located at client folder
 in backend, you can check codes in app.js and models, controller, routes folder
 
 in frontend, you can check codes in client/src/page/home and client/src/redux
+
+# Future updates
+
+using JWT encryption to pass payloads from frontend to backend for security purposes when accessing Network via Developer Options
