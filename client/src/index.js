@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import "./index.css";
 
-axios.defaults.baseURL = "http://localhost:5000/";
+axios.defaults.baseURL = "https://todo-list-mernstack.herokuapp.com/";
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
