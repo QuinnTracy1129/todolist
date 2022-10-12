@@ -6,11 +6,23 @@ Step by step installion for local computer
 
 2. go to repository folder
 
-3. run <i>npm install</i> for backend libraries
+3. run <b><i>npm install</i></b> on terminal for backend libraries
 
-4. run npm install for backend libraries and run npm run dev
+4. run <b><i>npm run dev</i></b> to serve backend on local port 5000
 
-5. go to client folder and run npm install --legacy-peer-deps for frontend libraries and run npm run dev
+5. go to client folder within the repository folder
+
+6. run <b><i>npm install --legacy-peer-deps</i></b> on terminal for frontend libraries
+
+7. run <b><i>npm run dev</i></b> to serve frontend on local port 3000
+
+# Configuring Database
+
+1. go to repository folder
+
+2. open .env
+
+3. uncomment the first <b><i>ALTAS_URI</i></b> and comment the second <b><i>ALTAS_URI</i></b> (make sure you have mongodb compass installed on your computer)
 
 # Code explanation
 
