@@ -9,8 +9,8 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import "./index.css";
 
-axios.defaults.baseURL = "http://localhost:5000/";
-// axios.defaults.baseURL = "https://todo-list-mernstack.herokuapp.com/";
+// axios.defaults.baseURL = "http://localhost:3000/";
+axios.defaults.baseURL = "https://wonderful-horse-94f9d5.netlify.app/";
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

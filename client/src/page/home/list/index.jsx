@@ -11,7 +11,7 @@ export default function List() {
 
   useEffect(() => {
     dispatch(BROWSE({ page, maxPage }));
-  }, [page]);
+  }, [page, maxPage, dispatch]);
 
   return (
     <MDBCardBody style={{ minHeight: 277.5 }}>
