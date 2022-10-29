@@ -8,7 +8,7 @@ import Pagination from "./pagination";
 const Initial = () => {
   return (
     <MDBContainer fluid className="h-100 d-flex align-items-center">
-      <MDBCol md={6} className="offset-md-3">
+      <MDBCol md={6} sm={10} size={12} className="offset-md-3 offset-sm-1">
         <MDBCard className="border border-dark">
           <Form />
           <List />
