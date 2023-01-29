@@ -14,7 +14,7 @@ mongoose.connect(process.env.ATLAS_URI, {
 });
 
 const corsConfig = {
-  origin: ["https://todolist-production-6112.up.railway.app/"], // Do not use wildcard`
+  origin: "https://todolist-deployment.up.railway.app/", // Do not use wildcard`
   methods: ["GET", "POST", "PUT", "DELETE"], // List only` available methods
   credentials: true, // Must be set to true
   allowedHeaders: [

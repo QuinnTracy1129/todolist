@@ -9,8 +9,7 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import "./index.css";
 
-// axios.defaults.baseURL = "http://localhost:3000/";
-axios.defaults.baseURL = "https://todolist-production-6112.up.railway.app/";
+axios.defaults.baseURL = window.location.origin;
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
