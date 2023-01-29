@@ -10,7 +10,7 @@ import { store } from "./redux/store";
 import "./index.css";
 
 // axios.defaults.baseURL = "http://localhost:3000/";
-axios.defaults.baseURL = "https://wonderful-horse-94f9d5.netlify.app/";
+axios.defaults.baseURL = "https://todolist-production-6112.up.railway.app/";
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
